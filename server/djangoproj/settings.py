@@ -62,7 +62,13 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
+<<<<<<< HEAD
             os.path.join(BASE_DIR, 'frontend/static')
+=======
+            os.path.join(BASE_DIR, 'frontend/static'),
+            os.path.join(BASE_DIR, 'frontend/build'),
+            os.path.join(BASE_DIR, 'frontend/build/static'),
+>>>>>>> feb027f (Configura ambiente e integracao Django com Frontend)
         ],
         'APP_DIRS': True,
         'OPTIONS': {
